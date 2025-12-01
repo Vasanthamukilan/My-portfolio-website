@@ -47,10 +47,10 @@ export default function Contact() {
         >
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Let's work together!
+              Let&apos;s work together!
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              I'm always open to discussing new projects, creative ideas, or
+              I&apos;m always open to discussing new projects, creative ideas, or
               opportunities to be part of your visions. Feel free to reach out
               to me.
             </p>
@@ -64,7 +64,7 @@ export default function Contact() {
               <div>
                 <p className="font-semibold text-gray-900">Email</p>
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:vasanthamukilan75@gmail.com"
                   className="text-primary-600 hover:underline"
                 >
                   vasanthamukilan75@gmail.com
@@ -79,7 +79,7 @@ export default function Contact() {
               <div>
                 <p className="font-semibold text-gray-900">Phone</p>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+916383869053"
                   className="text-primary-600 hover:underline"
                 >
                   +91 6383869053
@@ -93,7 +93,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="font-semibold text-gray-900">Thirumazhisai</p>
-                <p className="text-gray-600">Chennai,India</p>
+                <p className="text-gray-600">Chennai, India</p>
               </div>
             </div>
           </div>
@@ -108,7 +108,10 @@ export default function Contact() {
           className="bg-white p-8 rounded-xl shadow-lg space-y-6"
         >
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+            <label
+              htmlFor="name"
+              className="block text-sm font-medium text-gray-700 mb-2"
+            >
               Name
             </label>
             <input
@@ -123,7 +126,10 @@ export default function Contact() {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-gray-700 mb-2"
+            >
               Email
             </label>
             <input
@@ -138,7 +144,10 @@ export default function Contact() {
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+            <label
+              htmlFor="message"
+              className="block text-sm font-medium text-gray-700 mb-2"
+            >
               Message
             </label>
             <textarea
@@ -160,4 +169,3 @@ export default function Contact() {
     </section>
   )
 }
-
