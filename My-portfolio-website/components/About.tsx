@@ -37,14 +37,14 @@ export default function About() {
           className="space-y-6"
         >
           <p className="text-lg text-gray-600 leading-relaxed">
-            I'm a passionate full-stack developer with a love for creating
+            I&apos;m a passionate full-stack developer with a love for creating
             beautiful and functional web applications. With expertise in modern
             JavaScript frameworks and a keen eye for design, I bring ideas to
             life through code.
           </p>
           
           <p className="text-lg text-gray-600 leading-relaxed">
-            When I'm not coding, you can find me exploring new technologies,
+            When I&apos;m not coding, you can find me exploring new technologies,
             contributing to open-source projects, or sharing knowledge with the
             developer community.
           </p>
@@ -64,4 +64,3 @@ export default function About() {
     </section>
   )
 }
-
