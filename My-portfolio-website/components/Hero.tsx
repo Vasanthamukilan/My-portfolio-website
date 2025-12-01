@@ -2,19 +2,22 @@
 
 import { motion } from 'framer-motion'
 import { HiArrowDown } from 'react-icons/hi'
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 
 export default function Hero() {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/Vasanthamukilan', label: 'GitHub' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/vasanthamukilan-m-11644b279/', label: 'LinkedIn' },
     { icon: FaXTwitter, href: 'https://x.com/VasanthaMukila1', label: 'X (Twitter)' },
-    { icon: FaEnvelope, href: 'vasanthamukilan75@gmail.com', label: 'Email' },
+    { icon: FaEnvelope, href: 'mailto:vasanthamukilan75@gmail.com', label: 'Email' },
   ]
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 via-white to-primary-50">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 via-white to-primary-50"
+    >
       <div className="section-container text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -27,7 +30,7 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-5xl sm:text-6xl md:text-7xl font-bold text-gray-900 mb-6"
           >
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="text-primary-600">Vasanthamukilan M</span>
           </motion.h1>
           
@@ -37,7 +40,7 @@ export default function Hero() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto"
           >
-            Full Stack Developer & Creative Problem Solver
+            Full Stack Developer &amp; Creative Problem Solver
           </motion.p>
           
           <motion.p
@@ -100,4 +103,3 @@ export default function Hero() {
     </section>
   )
 }
-
